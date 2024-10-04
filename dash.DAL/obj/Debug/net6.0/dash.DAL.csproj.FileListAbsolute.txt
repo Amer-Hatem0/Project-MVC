@@ -1,0 +1,11 @@
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\bin\Debug\net6.0\dash.DAL.deps.json
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\bin\Debug\net6.0\dash.DAL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\bin\Debug\net6.0\dash.DAL.pdb
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.AssemblyInfoInputs.cache
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.AssemblyInfo.cs
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.csproj.CoreCompileInputs.cache
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\refint\dash.DAL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.pdb
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\ref\dash.DAL.dll
