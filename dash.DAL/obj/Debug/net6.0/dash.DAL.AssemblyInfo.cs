@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dash.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04832c0be58dde88d8fc51c550f6cf42045e8372")]
 [assembly: System.Reflection.AssemblyProductAttribute("dash.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dash.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

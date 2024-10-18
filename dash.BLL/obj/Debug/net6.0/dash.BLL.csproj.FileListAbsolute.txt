@@ -13,3 +13,4 @@ C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\o
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net6.0\refint\dash.BLL.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net6.0\dash.BLL.pdb
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net6.0\ref\dash.BLL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net6.0\dash.BLL.sourcelink.json

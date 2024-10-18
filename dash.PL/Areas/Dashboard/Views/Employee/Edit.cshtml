@@ -1,0 +1,88 @@
+﻿@model EmployeeFromVM
+
+@section header {
+    Employee
+}
+
+<div class="col-md-10 m-auto">
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Edit Employee</h3>
+        </div>
+
+        <form asp-controller="Employee" asp-action="Edit" enctype="multipart/form-data" class="w-100">
+            <div class="card-body">
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Img" />
+
+                <div class="form-group">
+                    <label asp-for="Name">Employee Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter Employee name" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Description">Employee Description</label>
+                    <input asp-for="Description" class="form-control" placeholder="Enter Employee Description" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Mobile">Mobile</label>
+                    <input asp-for="Mobile" class="form-control" placeholder="Enter Employee Mobile" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Facebook">Facebook</label>
+                    <input asp-for="Facebook" class="form-control" placeholder="Enter Employee Facebook" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Linkedin">Linkedin</label>
+                    <input asp-for="Linkedin" class="form-control" placeholder="Enter Employee Linkedin" />
+                </div>
+                             
+                <div class="form-group">
+                    <label>Current Image</label>
+                    <div>
+                        <img src="~/files/images/@Model.Img" alt="Current Employee Image" class="img-thumbnail w-25" id="currentImage" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="ImgName">Upload New Image</label>
+                    <input asp-for="ImgName" class="form-control-file imageInput" onchange="previewImage(event)" />
+                </div>
+
+                <div class="form-group" id="newImageContainer" style="display:none;">
+                    <label>New Image Preview</label>
+                    <div>
+                        <img id="newImagePreview" class="img-thumbnail w-25" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Edit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+ 
+    function previewImage(event) {
+        const newImageContainer = document.getElementById('newImageContainer');
+        const newImagePreview = document.getElementById('newImagePreview');
+        const file = event.target.files[0];
+
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                newImagePreview.src = e.target.result;
+                newImageContainer.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        } else {
+            newImageContainer.style.display = 'none';
+        }
+    }
+</script>

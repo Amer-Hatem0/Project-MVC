@@ -1,0 +1,44 @@
+﻿@model UpdatedLink
+@section header {
+ 
+}
+<div class="container mt-5">
+    <h2>Links Information</h2>
+    <table class="table table-bordered">
+        <tr>
+            <th>Facebook</th>
+            <td>@Model.Facebook</td>
+        </tr>
+        <tr>
+            <th>Mobile</th>
+            <td>@Model.Mobile</td>
+        </tr>
+        <tr>
+            <th>LinkedIn</th>
+            <td>@Model.Linkedin</td>
+        </tr>
+        <tr>
+            <th>XApp</th>
+            <td>@Model.XApp</td>
+        </tr>
+        <tr>
+            <th>Instagram</th>
+            <td>@Model.Instagram</td>
+        </tr>
+        <tr>
+            <th>Youtube</th>
+            <td>@Model.Youtube</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+           <td>@Model.Location</td>
+
+        </tr>
+    </table>
+
+    <a class="btn btn-primary" asp-controller="Links" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+</div>

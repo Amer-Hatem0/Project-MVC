@@ -1,0 +1,35 @@
+﻿@model SerAll
+
+
+@section header {
+    Detials
+}
+
+
+
+<div class="container mt-5">
+    <h2>Services List</h2>
+    <table class="table table-bordered bg-white text-center">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Create At</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="align-middle">@Model.Id</td>
+                <td class="align-middle">@Model.Name</td>
+                <td class="align-middle">@Html.Raw( @Model.Description)</td>
+                <td class="align-middle">@Model.CreateAt</td>
+                <td class="align-middle">
+                    <img src="~/files/images/@Model.Img" class="w-50" />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

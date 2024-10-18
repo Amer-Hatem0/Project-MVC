@@ -18,8 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXENhdGVnb3J5XEluZGV4LmNzaHRtbA==
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Blog/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJsb2dcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Blog/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJsb2dcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEJsb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEVtcGxveWVlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Employee/Detials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEVtcGxveWVlXERldGlhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEVtcGxveWVlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEVtcGxveWVlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Home/Index.cshtml]
@@ -28,6 +52,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Links/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXExpbmtzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Links/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXExpbmtzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Service/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlcnZpY2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Service/Detials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlcnZpY2VcRGV0aWFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Service/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlcnZpY2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRGFzaGJvYXJkXFZpZXdzXFNlcnZpY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/amrh3/OneDrive/Desktop/full stack/Back End/Projects/project1/dash.PL/Areas/Dashboard/Views/Shared/_footer.cshtml]

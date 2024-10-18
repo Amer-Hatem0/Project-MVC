@@ -1,0 +1,71 @@
+﻿@model UpdatedLink
+@section header {
+    Links
+}
+
+ 
+ 
+<div class="col-md-10 m-auto">
+
+    <div class="card card-primary ">
+        <div class="card-header">
+            <h3 class="card-title">Edit</h3>
+        </div>
+
+
+        <form asp-controller="Links" asp-action="Edit"  method="post" class="w-100">
+            <div class="card-body">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label for="Facebook">Facebook</label>
+                    <input type="text" class="form-control" id="Facebook" name="Facebook" value="@Model.Facebook" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Mobile">Mobile</label>
+                    <input type="text" class="form-control" id="Mobile" name="Mobile" value="@Model.Mobile" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Linkedin">LinkedIn</label>
+                    <input type="text" class="form-control" id="Linkedin" name="Linkedin" value="@Model.Linkedin" />
+                </div>
+
+                <div class="form-group">
+                    <label for="XApp">XApp</label>
+                    <input type="text" class="form-control" id="XApp" name="XApp" value="@Model.XApp" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Instagram">Instagram</label>
+                    <input type="text" class="form-control" id="Instagram" name="Instagram" value="@Model.Instagram" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Youtube">Youtube</label>
+                    <input type="text" class="form-control" id="Youtube" name="Youtube" value="@Model.Youtube" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="Email" name="Email" value="@Model.Email" />
+                </div>
+
+                <div class="form-group">
+                    <label for="Location">Location</label>
+                    <input type="text" class="form-control" id="Location" name="Location" />
+                </div>
+
+               
+            </div>
+            
+
+
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Edit</button>
+            </div>
+        </form>
+    </div>
+</div>

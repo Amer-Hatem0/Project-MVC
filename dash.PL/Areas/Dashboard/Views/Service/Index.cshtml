@@ -1,0 +1,151 @@
+﻿
+
+
+@model IEnumerable<SerVM>
+
+@section style {
+    <link href="//cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/buttons/3.1.2/css/buttons.dataTables.min.css" rel="stylesheet" />
+
+}
+ 
+
+@section header {
+    Service
+}
+
+
+<div class="col-md-10 m-auto">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Services Table</h3>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @item.Name
+                            </td>
+                            <td>
+                                @item.IsDeleted
+                            </td>
+                            <td>
+                                <a class="btn btn-warning" asp-controller="Service" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                                <a class="btn btn-info" asp-controller="Service" asp-action="Detials" asp-route-id="@item.Id">Detials</a>
+                               
+                                <a class="btn btn-danger delete-btn" data-id="@item.Id" href="javascript:void(0)" >Delete</a>
+      
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card-footer clearfix">
+            <ul class="pagination pagination-sm m-0 float-right">
+                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">»</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+</div>
+
+@section scripts {
+    <script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.12/pdfmake.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/3.1.2/js/buttons.print.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+
+        new DataTable('table', {
+            layout: {
+                topStart: {
+                    buttons: [
+                        'copy', 'excel', 'pdf'
+                    ]
+                }
+            }
+        });
+
+        const e = document.querySelectorAll(".delete-btn");
+        e.forEach(function (button) {
+            button.addEventListener("click", async () => {
+                const swalWithBootstrapButtons = Swal.mixin({
+                    customClass: {
+                        confirmButton: "btn btn-success",
+                        cancelButton: "btn btn-danger"
+                    },
+                    buttonsStyling: false
+                });
+                swalWithBootstrapButtons.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonText: "Yes, delete it!",
+                    cancelButtonText: "No, cancel!",
+                    reverseButtons: true
+                }).then(async (result) => {
+                    if (result.isConfirmed) {
+                        const id = button.dataset.id;
+                        const respo = await fetch(`/dashboard/service/Delete/${id}`, {
+                            method: 'POST', headers: {
+                                "Content-Type": "application/json"
+                            }
+                        },
+                        );
+
+                        const data = await respo.json();
+                        if (respo.ok) {
+
+                            $(button).closest("tr").remove();
+                        }
+                        swalWithBootstrapButtons.fire({
+                            title: "Deleted!",
+                            text: "Your service has been deleted.",
+                            icon: "success"
+                        });
+                    } else if (
+                          result.dismiss === Swal.DismissReason.cancel
+                    ) {
+                        swalWithBootstrapButtons.fire({
+                            title: "Cancelled",
+                            text: "Your imaginary service is safe :)",
+                            icon: "error"
+                        });
+                    }
+                });
+
+            })
+
+
+        }
+
+        )
+    </script>
+}

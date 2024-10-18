@@ -121,6 +121,10 @@
       "PackagePath": "staticwebassets\\dash\\dist\\css\\alt\\adminlte.plugins.min.css.map"
     },
     {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\dash\\dist\\css\\img.css",
+      "PackagePath": "staticwebassets\\dash\\dist\\css\\img.css"
+    },
+    {
       "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\dash\\dist\\img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\dash\\dist\\img\\AdminLTELogo.png"
     },
@@ -8229,6 +8233,70 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\132f4d58-2976-42ec-85d4-a95eb60c4417Screenshot 2024-01-02 050426.png",
+      "PackagePath": "staticwebassets\\files\\images\\132f4d58-2976-42ec-85d4-a95eb60c4417Screenshot 2024-01-02 050426.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\148fbb64-75f8-4961-910b-0e2e8ae9e8daScreenshot (21).png",
+      "PackagePath": "staticwebassets\\files\\images\\148fbb64-75f8-4961-910b-0e2e8ae9e8daScreenshot (21).png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\79bfb95e-2dff-429e-a070-00c13d300c25Screenshot 2024-01-02 052510.png",
+      "PackagePath": "staticwebassets\\files\\images\\79bfb95e-2dff-429e-a070-00c13d300c25Screenshot 2024-01-02 052510.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\98e58865-249c-4d6e-9b17-dadc7e4de66bScreenshot (20).png",
+      "PackagePath": "staticwebassets\\files\\images\\98e58865-249c-4d6e-9b17-dadc7e4de66bScreenshot (20).png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\a66a263d-41dd-4d02-b775-bcae571173a9Screenshot (37).png",
+      "PackagePath": "staticwebassets\\files\\images\\a66a263d-41dd-4d02-b775-bcae571173a9Screenshot (37).png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\a909360b-31d1-44b4-a787-3c8bdce4c540Screenshot (36).png",
+      "PackagePath": "staticwebassets\\files\\images\\a909360b-31d1-44b4-a787-3c8bdce4c540Screenshot (36).png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\ad48ae84-50f4-4532-948b-424e37697ab0Screenshot 2024-01-02 050426.png",
+      "PackagePath": "staticwebassets\\files\\images\\ad48ae84-50f4-4532-948b-424e37697ab0Screenshot 2024-01-02 050426.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\b11c82a4-6f91-489d-aec5-0b6c880a31b5Screenshot 2023-12-26 173557.png",
+      "PackagePath": "staticwebassets\\files\\images\\b11c82a4-6f91-489d-aec5-0b6c880a31b5Screenshot 2023-12-26 173557.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\b21a352a-5bdc-4934-95ee-2363155795f1Screenshot 2024-01-02 050426.png",
+      "PackagePath": "staticwebassets\\files\\images\\b21a352a-5bdc-4934-95ee-2363155795f1Screenshot 2024-01-02 050426.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\bc5d9270-bbba-4041-89bb-7b3af5254e8bScreenshot (20).png",
+      "PackagePath": "staticwebassets\\files\\images\\bc5d9270-bbba-4041-89bb-7b3af5254e8bScreenshot (20).png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\bdbf7333-99c2-4165-a3c1-90f916eeb65dScreenshot (34).png",
+      "PackagePath": "staticwebassets\\files\\images\\bdbf7333-99c2-4165-a3c1-90f916eeb65dScreenshot (34).png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\c3158511-6351-4dbd-9546-fda622f24ffaScreenshot 2023-08-23 202017.png",
+      "PackagePath": "staticwebassets\\files\\images\\c3158511-6351-4dbd-9546-fda622f24ffaScreenshot 2023-08-23 202017.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\e0c235d4-11c2-4c5a-bee4-0f7e06be7683Screenshot 2024-01-02 050426.png",
+      "PackagePath": "staticwebassets\\files\\images\\e0c235d4-11c2-4c5a-bee4-0f7e06be7683Screenshot 2024-01-02 050426.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\e48e72ba-60fa-4de1-827a-d993583d5a77Screenshot 2023-12-26 173557.png",
+      "PackagePath": "staticwebassets\\files\\images\\e48e72ba-60fa-4de1-827a-d993583d5a77Screenshot 2023-12-26 173557.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\f64c2fac-aa5b-456d-8370-13c754b43a9cScreenshot 2023-12-26 173557.png",
+      "PackagePath": "staticwebassets\\files\\images\\f64c2fac-aa5b-456d-8370-13c754b43a9cScreenshot 2023-12-26 173557.png"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\files\\images\\fe285a36-8c15-4346-8ad6-8c4d65b70d59Screenshot 2024-01-02 052510.png",
+      "PackagePath": "staticwebassets\\files\\images\\fe285a36-8c15-4346-8ad6-8c4d65b70d59Screenshot 2024-01-02 052510.png"
+    },
+    {
       "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -8411,6 +8479,18 @@
     {
       "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\lib\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\lib\\datatables\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\lib\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables\\js\\jquery.dataTables.min.js"
     },
     {
       "Id": "C:\\Users\\amrh3\\OneDrive\\Desktop\\full stack\\Back End\\Projects\\project1\\dash.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dash.PL", "dash.PL.csproj", "{51E2A435-F21A-4651-BCE8-C551FC14B0F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dash.PL", "dash.PL.csproj", "{51E2A435-F21A-4651-BCE8-C551FC14B0F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dash.DAL", "..\dash.DAL\dash.DAL.csproj", "{81C65DF9-1EFB-4936-87C1-2EB065B180FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dash.DAL", "..\dash.DAL\dash.DAL.csproj", "{81C65DF9-1EFB-4936-87C1-2EB065B180FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dash.BLL", "..\dash.BLL\dash.BLL.csproj", "{B2EB7685-74C1-47AD-B77B-FBE3991FCC80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dash.BLL", "..\dash.BLL\dash.BLL.csproj", "{B2EB7685-74C1-47AD-B77B-FBE3991FCC80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

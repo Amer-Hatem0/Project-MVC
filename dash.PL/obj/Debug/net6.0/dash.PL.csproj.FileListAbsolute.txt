@@ -30,7 +30,6 @@ C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bi
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
@@ -259,3 +258,8 @@ C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\ob
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\obj\Debug\net6.0\dash.PL.genruntimeconfig.cache
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\obj\Debug\net6.0\ref\dash.PL.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\obj\Debug\net6.0\scopedcss\Areas\dashboard\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\obj\Debug\net6.0\dash.PL.sourcelink.json
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.PL\bin\Debug\net6.0\libman.json

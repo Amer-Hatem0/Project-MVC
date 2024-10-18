@@ -1,0 +1,72 @@
+﻿@model EmployeeFromVM
+
+@section header {
+    Employee
+}
+<div class="col-md-10 m-auto">
+    <div class="card card-primary">
+        <div class="card-header">
+            <h3 class="card-title">Create</h3>
+        </div>
+        <form asp-controller="Employee" asp-action="Create" enctype="multipart/form-data">
+            <div class="card-body">
+                <div class="form-group">
+                    <label asp-for="Name">Employee Name</label>
+                    <input asp-for="Name" class="form-control" placeholder="Enter service name">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description">Service Description</label>
+                    <input asp-for="Description" class="form-control extarea" placeholder="Enter service description"></input>
+                </div>
+               
+                <div class="form-group">
+                    <label asp-for="Mobile">Mobile</label>
+                    <input asp-for="Mobile" class="form-control" placeholder="Enter service name">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Facebook">Facebook</label>
+                    <input asp-for="Facebook" class="form-control" placeholder="Enter service name">
+                </div>
+                <div class="form-group">
+                    <label asp-for="Linkedin">Linkedin</label>
+                    <input asp-for="Linkedin" class="form-control" placeholder="Enter service name">
+                </div>
+                <div class="form-group">
+                    <input asp-for="ImgName" class="form-control-file imageInput">
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <img class="imagePreview w-50">
+            </div>
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://cdn.tiny.cloud/1/s6h0ymdx5ke9bm66m5c2fc1nyllhnyb6x401rv9k1wke1r51/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: '.textarea',
+        });
+        document.querySelector(".imageInput").addEventListener("change", (event) => {
+            const file = event.target.files[0];
+            const imagePreview = document.querySelector(".imagePreview");
+
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.style.display = "block";
+                };
+
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+}

@@ -9,3 +9,7 @@ C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\o
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\refint\dash.DAL.dll
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.pdb
 C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\ref\dash.DAL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\bin\Debug\net6.0\dash.DAL.runtimeconfig.json
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.csproj.AssemblyReference.cache
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.sourcelink.json
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.DAL\obj\Debug\net6.0\dash.DAL.genruntimeconfig.cache
