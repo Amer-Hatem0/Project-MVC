@@ -1,6 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+@using dash.DAL.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
@@ -16,11 +17,12 @@
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        <div class="log d-flex ml-5 ">
+    <li class="nav-item ml-5 mr-5 ">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">         |    Register    |          </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">|   Login    |</a>
+    </li></div>
 }
 </ul>

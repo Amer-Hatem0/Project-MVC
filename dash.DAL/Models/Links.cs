@@ -16,8 +16,7 @@ namespace dash.DAL.Models
         public string? Facebook { get; set; }
 
         [Required(ErrorMessage = "Mobile is required.")]
-        [Range(1000000000, 9999999999, ErrorMessage = "Mobile number must be a 10-digit number.")]
-        public int Mobile { get; set; }
+         public string Mobile { get; set; }
 
         [Url(ErrorMessage = "Invalid LinkedIn URL format.")]
         public string? Linkedin { get; set; } 

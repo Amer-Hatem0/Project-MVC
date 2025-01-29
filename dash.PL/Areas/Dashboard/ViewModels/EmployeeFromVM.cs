@@ -25,15 +25,16 @@ namespace dash.PL.Areas.Dashboard.ViewModels
       
         public int Mobile { get; set; }
 
-    
+
         public string? Linkedin { get; set; }
 
- 
-       
 
-       
 
- 
+
+
+
+
+
     }
 }
 

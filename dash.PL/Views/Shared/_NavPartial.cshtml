@@ -1,0 +1,62 @@
+﻿<div class="container-fluid bg-primary d-none d-lg-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+
+                    @if (Model.Links != null)
+                    {
+                        foreach (var item in Model.Links)
+                        {
+                            <a class="text-dark py-2 pe-3 border-end border-white" href=""><i class="bi bi-telephone text-secondary me-2"></i>@item.Mobile</a>
+                            <a class="text-dark py-2 px-3" href=""><i class="bi bi-envelope text-secondary me-2"></i>@item.Email</a>
+
+                        }
+                    }
+                    else
+                    {
+                        <p>No Employee available at the moment.</p>
+                    }
+
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center">
+
+                    @if (Model.Links != null)
+                    {
+                        foreach (var item in Model.Links)
+                        {
+                            <a class="text-body py-2 px-3 border-end border-white" href="@item.Facebook">
+                                <i class="fab fa-facebook-f text-secondary"></i>
+                            </a>
+                            <a class="text-body py-2 px-3 border-end border-white" href="@item.XApp">
+                                <i class="fab fa-twitter text-secondary"></i>
+                            </a>
+                            <a class="text-body py-2 px-3 border-end border-white" href="@item.Linkedin">
+                                <i class="fab fa-linkedin-in text-secondary"></i>
+                            </a>
+                            <a class="text-body py-2 px-3 border-end border-white" href="@item.Instagram">
+                                <i class="fab fa-instagram text-secondary"></i>
+                            </a>
+                            <a class="text-body py-2 ps-3" href="@item.Youtube">
+                                <i class="fab fa-youtube text-secondary"></i>
+                            </a>
+
+
+
+                        }
+                    }
+                    else
+                    {
+                        <p>No Employee available at the moment.</p>
+                    }
+                    <div class="ml-5">
+                        <partial name="_LoginPartial" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

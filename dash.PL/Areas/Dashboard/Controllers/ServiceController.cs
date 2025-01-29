@@ -3,6 +3,8 @@ using dash.DAL.Data;
 using dash.DAL.Models;
 using dash.PL.Areas.Dashboard.ViewModels;
 using dash.PL.Helpers;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 using System;
@@ -12,6 +14,7 @@ using System.Transactions;
 
 namespace dash.PL.Areas.Dashboard.Controllers
 {
+    [Authorize(Roles = "Admin,SuperAdmin")]
     [Area("Dashboard")]
     public class ServiceController : Controller
     {

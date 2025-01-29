@@ -33008,22 +33008,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\a66a263d-41dd-4d02-b775-bcae571173a9Screenshot (37).png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\a909360b-31d1-44b4-a787-3c8bdce4c540Screenshot (36).png))">
-      <SourceType>Package</SourceType>
-      <SourceId>dash.PL</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/dash.PL</BasePath>
-      <RelativePath>files/images/a909360b-31d1-44b4-a787-3c8bdce4c540Screenshot (36).png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\a909360b-31d1-44b4-a787-3c8bdce4c540Screenshot (36).png))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\ad48ae84-50f4-4532-948b-424e37697ab0Screenshot 2024-01-02 050426.png))">
       <SourceType>Package</SourceType>
       <SourceId>dash.PL</SourceId>
@@ -33103,22 +33087,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\bdbf7333-99c2-4165-a3c1-90f916eeb65dScreenshot (34).png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\c3158511-6351-4dbd-9546-fda622f24ffaScreenshot 2023-08-23 202017.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>dash.PL</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/dash.PL</BasePath>
-      <RelativePath>files/images/c3158511-6351-4dbd-9546-fda622f24ffaScreenshot 2023-08-23 202017.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\c3158511-6351-4dbd-9546-fda622f24ffaScreenshot 2023-08-23 202017.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\files\images\e0c235d4-11c2-4c5a-bee4-0f7e06be7683Screenshot 2024-01-02 050426.png))">
       <SourceType>Package</SourceType>

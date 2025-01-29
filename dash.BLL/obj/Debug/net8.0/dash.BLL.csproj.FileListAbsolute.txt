@@ -1,0 +1,16 @@
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\bin\Debug\net8.0\dash.BLL.deps.json
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\bin\Debug\net8.0\dash.BLL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\bin\Debug\net8.0\dash.BLL.pdb
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\bin\Debug\net8.0\dash.DAL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\bin\Debug\net8.0\dash.DAL.pdb
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.csproj.AssemblyReference.cache
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.AssemblyInfoInputs.cache
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.AssemblyInfo.cs
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.csproj.CoreCompileInputs.cache
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.sourcelink.json
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.csproj.CopyComplete
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\refint\dash.BLL.dll
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\dash.BLL.pdb
+C:\Users\amrh3\OneDrive\Desktop\full stack\Back End\Projects\project1\dash.BLL\obj\Debug\net8.0\ref\dash.BLL.dll

@@ -9,7 +9,7 @@ namespace dash.PL.Areas.Dashboard.ViewModels
         public string? Facebook { get; set; }
 
  
-        public int Mobile { get; set; }
+        public string Mobile { get; set; }
 
   
         public string? Linkedin { get; set; }
